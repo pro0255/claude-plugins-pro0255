@@ -1,5 +1,13 @@
-#!/usr/bin/env sh
-. "$(dirname -- "$0")/_/husky.sh"
+echo "🎨 Running pre-commit formatting..."
 
-# Run lint-staged to check staged files
+# Run formatting script
 ./format.sh
+
+# Check if formatting changed any files
+if ! git diff --quiet; then
+    echo "⚠️  Files were modified by formatting. Please review and commit again."
+    git diff --name-only
+    exit 1
+fi
+
+echo "✅ Pre-commit formatting complete!"
