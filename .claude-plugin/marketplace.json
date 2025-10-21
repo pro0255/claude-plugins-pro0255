@@ -1,0 +1,14 @@
+{
+  "name": "claude-plugins-pro0255",
+  "owner": {
+    "name": "Vojta Prokop",
+    "email": "prokop.vojtech@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "my-first-plugin",
+      "source": "./my-first-plugin",
+      "description": "My first test plugin"
+    }
+  ]
+}
