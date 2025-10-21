@@ -1,6 +1,6 @@
 # 🚀 Claude Plugin Marketplace
 
-A marketplace for Claude plugins with Python and TypeScript formatting.
+A marketplace for Claude plugins.
 
 ## 🎯 How to Start
 
@@ -15,7 +15,6 @@ This command will add the plugin marketplace to your Claude instance.
 ## 📦 What's Included
 
 - **Plugin Marketplace** - Discover and install Claude plugins
-- **Python & TypeScript Formatting** - Automated code formatting
 - **Available Plugins:**
   - **my-first-plugin** - A simple greeting plugin
 
@@ -33,17 +32,6 @@ This command will add the plugin marketplace to your Claude instance.
    ```bash
    npm install
    ```
-
-3. **Format code:**
-   ```bash
-   ./format.sh
-   ```
-
-## 🎨 Code Formatting
-
-- **Python files** formatted with Black (88 char lines)
-- **TypeScript files** formatted with Prettier (100 char lines)
-- **Automatic formatting** on every commit
 
 ## 📚 Documentation
 
