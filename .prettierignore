@@ -1,14 +1,79 @@
+# Dependencies
 node_modules/
-dist/
-build/
-*.min.js
-*.min.css
 package-lock.json
 yarn.lock
 pnpm-lock.yaml
+
+# Build outputs
+dist/
+build/
+out/
+*.min.js
+*.min.css
+*.min.html
+
+# IDE and editor files
 .git/
 .vscode/
 .idea/
+*.swp
+*.swo
+
+# Logs and temporary files
 *.log
+logs/
+tmp/
+temp/
+
+# Coverage and test outputs
 coverage/
 .nyc_output/
+test-results/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Language-specific ignores
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# Go
+vendor/
+
+# Rust
+target/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# C/C++
+*.o
+*.so
+*.dylib
+*.dll
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Large binary files
+*.bin
+*.exe
+*.dmg
+*.iso
+
+# Generated files
+*.generated.*
+auto-generated/
